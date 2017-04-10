@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>weather app</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row">
+		<h1 class="text-center"> Show the Local Weather</h1>
+		<div class="jumbotron text-center" style="">
+			<span id="country" class="tempsize">  </span>
+			<span id="city"></span>
+			<div>
+			<p id="describtion" class="float-left"> snow </p>
+			<div class="btn-group float-left">
+				    <button type="button" class="btn btn-default btn-primary btn-md f">°F</button>
+				    <button type="button" class="btn btn-default btn-md c">°C</button>
+				</div>
+			</div>
+			<p id="temp"></p>
+			<div id="other_details">
+				<div id="left" class="col-sm-4"> <p>Min-Temp</p> <p id="mintemp"> </p> </div>
+				<div class="col-sm-4"> <p>Humidity</p> <p id="humidity"> </p></div>
+				<div class="col-sm-4"> <p>Max-Temp</p> <p id="maxtemp"> </p></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/weatherapp.js"></script>
+</body>
+</html>

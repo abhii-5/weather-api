@@ -1,0 +1,23 @@
+.jumbotron{
+			color:white;
+			background-color:#FA5D39 !important;
+			min-height: 510px;
+		}
+#temp{
+			font-size: 7em;
+		}
+#country{
+			font-size: 3em;
+		}
+#city{
+			font-size: 1.5em;
+		}
+#other_details div{
+			/*float:left;*/
+			/*margin-right: 50px;*/
+			font-size: 2em;
+			
+		}
+#left{
+			/*margin-left: 30%*/
+		}
